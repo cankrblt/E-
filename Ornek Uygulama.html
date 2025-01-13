@@ -1,0 +1,93 @@
+<!-- Örnek Uygulama -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style>
+        .divOzellik {
+            width: 400px;
+            height: 520px;
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="divOzellik">
+        <form>
+            <table>
+                <tr>
+                    <td>Adınız :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Soyadınız :</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email Adresiniz :</td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Şifreniz :</td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td><input type="radio" name="radio">Erkek <input type="radio" name="radio">Kadın</td>
+                </tr>
+                <!-- Cinsiyet Kodunu bu şekilde de yazabilirsin ; 
+                <tr>
+                    <td>Cinsiyet :</td>
+                    <td>
+                        <input type="radio" name="cinsiyetRadio" id="erkekRadio" value="Erkek">
+                        <label for="erkekRadio">Erkek</label>
+                        <input type="radio" name="cinsiyetRadio" id="kadinRadio" value="Kadin">
+                        <label for="kadinRadio">Kadin</label>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>Doğum Tarihi :</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th colspan=2>Hobiler</th>
+                </tr>
+                <tr>
+                    <td>Kitap Okumak :</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Spor Yapmak :</td>
+                    <td><input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Enstrüman Çalmak</td>
+                    <td> <input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <textarea name="mesaj" id="mesajalani" cols="50" rows="10"
+                            placeholder="Mesajiniz.."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Okudum, onayliyorum <input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Okudum, onaylamiyorum <input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td> <input type="submit"><input type="reset"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
